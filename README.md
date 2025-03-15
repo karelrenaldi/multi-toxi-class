@@ -7,8 +7,8 @@ This project implements a **multilingual toxic comment classification** system f
 3. **Toxicity Classification** – Classifies the translated (or original) text for toxicity using pre-trained models.
 
 ## Datasets
-- **TensorFlow `ted_hrlr_translate/ru_to_en`** – Used for machine translation.
-- **Hugging Face toxicity classification datasets** – Used for training the toxicity detection model.
+- **TensorFlow `ted_hrlr_translate/ru_to_en`**.
+- **Hugging Face `papluca/language-identification`**.
 
 ## Results & Limitations
 While the pipeline successfully detects toxic comments in **English**, it struggles with **Russian** text due to translation limitations. Key issues include:
